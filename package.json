@@ -1,0 +1,33 @@
+{
+  "name": "js-package-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "init": "node init.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "fix": "eslint src --fix",
+    "babel": "babel src -d lib",
+    "build": "npm run lint && npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/juliendargelos/js-package-base"
+  },
+  "author": "Julien Dargelos",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "readline-sync": "^1.4.7"
+  }
+}
