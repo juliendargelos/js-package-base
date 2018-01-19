@@ -1,9 +1,9 @@
-# Js Package Base
+# Js Package Boilerplate
 
 ## Installation
 ```
-git clone git@github.com:juliendargelos/js-package-base.git
-cd js-package-base
+git clone git@github.com:juliendargelos/js-package-boilerplate.git
+cd js-package-boilerplate
 npm install
 npm run init
 ```
